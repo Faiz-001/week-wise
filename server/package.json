@@ -5,8 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "nodemon index.js",
-    "build": "npm --prefix client install --include=dev && npm --prefix client run build && npm --prefix server install",
-    "start": "node server/index.js"
+    "start": "node index.js"
   },
   "dependencies": {
     "cors": "^2.8.5",
